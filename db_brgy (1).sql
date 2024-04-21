@@ -39,6 +39,7 @@ CREATE TABLE `login_table` (
 
 INSERT INTO `login_table` (`id`, `username`, `password`) VALUES
 (1, 'user', 'password');
+(2, 'user', 'pass');
 
 --
 -- Indexes for dumped tables
