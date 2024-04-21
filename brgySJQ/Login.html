@@ -218,9 +218,15 @@ body {
     </div>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="login.php" method="post">
-            <input type="text" placeholder="Username" name="username" required>
-            <input type="password" placeholder="Password" name="password" required>
+            <body>
+                <h1>Login Form</h1>
+                <form method="post">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </body>
+            </html>
             <input type="date" name="registration-date" value="<?php echo date('Y-m-d'); ?>" required>
             <input type="submit" value="Login">
             <p>Don't have an account? <a href="/register">Register</a></p>
